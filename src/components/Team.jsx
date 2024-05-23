@@ -20,7 +20,7 @@ export const Team = (props) => {
         </div>
         <div style={{ width: '50%' }}>
           <h1>Andrew Dupere</h1>
-          <p>Expert data engineering and automation expert</p>
+          <p>Andrew is an expert in data analytics and automation.</p>
         </div>
       </>
     : "Loading..."
