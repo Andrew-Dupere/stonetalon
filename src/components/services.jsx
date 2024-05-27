@@ -6,6 +6,7 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Services</h2>
+          {/* Optional description can be uncommented here */}
           {/* <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
@@ -13,17 +14,21 @@ export const Services = (props) => {
         </div>
         <div className="row">
           {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <div className="service-desc">
-                    <h3>{d.name}</h3>
-                    <p>{d.text}</p>
+            ? props.data.map((service, index) => (
+                <div key={`${service.name}-${index}`} className="col-md-4">
+                  <i className={service.icon}></i>
+                  <div className="service-desc services-text">
+                    <h3>{service.name}</h3>
+                    <p>{service.text}</p>
+                    <ul>
+                      {service.list.map((item, idx) => (
+                        <li key={idx}>{item}</li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ))
-            : "loading"}
+            : "Loading services..."}
         </div>
       </div>
     </div>
