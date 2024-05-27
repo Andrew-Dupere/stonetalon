@@ -89,12 +89,12 @@
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\" Andrew built a database of clinical trial data and provided my team with valuable insights on drug development. Andrew was able to produce stunning charts and graphs giving me valuable insights.\"",
+      "text": "\"Andrew collected data from a complex API, built a SQL database and created insightful clinical trial data visualzations for our team.\"",
       "name": "Magali Hickey"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Andrew saved our business time and money by writing scripts to automation reporting tasks.\"",
+      "text": "\"Andrew saved our business time and money by writing scripts to automate reporting tasks.\"",
       "name": "Summit Partners"
     }
   ],
