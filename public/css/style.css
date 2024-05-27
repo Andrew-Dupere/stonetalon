@@ -36,8 +36,10 @@ h5 {
   font-weight: 700;
   line-height: 20px;
 }
+
+
 p {
-  font-size: 15px;
+  font-size: 17px;
 }
 p.intro {
   margin: 12px 0 0;
@@ -290,7 +292,7 @@ header .intro-text {
   left: 0;
 }
 #about .about-text li {
-  margin-bottom: 6px;
+  margin-bottom: 10px;
   margin-left: 6px;
   list-style: none;
   padding: 0;
@@ -299,7 +301,7 @@ header .intro-text {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 300;
   padding-right: 8px;
 }
@@ -611,4 +613,21 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+
+.brand-with-lines {
+  position: relative;
+  display: flex; /* Use flexbox for better center alignment */
+  align-items: center; /* Vertically centers the text and lines */
+  justify-content: center; /* Horizontally centers the content */
+}
+
+.brand-with-lines::before,
+.brand-with-lines::after {
+  content: '';
+  height: 3px; /* Thickness of the line */
+  background-color: black;
+  width: 60px; /* Adjust the length of the line as needed */
+  margin: 0 10px; /* Space between the text and the lines */
 }

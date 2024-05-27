@@ -4,7 +4,7 @@
     "paragraph": "Akinos Consulting provides data analysis, web scraping and automation solutions for small teams and individuals."
   },
   "About": {
-    "paragraph": "Akinos Consulting was formed to bring enterprise quality data analytics and automation solutions to small teams and individuals. We provide comprehensive data collection services including web scraping of unstructured/public data and working with complex APIs for large databases. We transform raw data into digestible visualizations, allowing clients to make data-driven decisions. Akinos Consulting also provides automation services for data entry, social media engagement and other repetitive, web-based tasks.",
+    "paragraph": ["Akinos Consulting was formed to bring enterprise quality data analytics and automation solutions to small teams and individuals.", "We provide comprehensive data collection services including web scraping of unstructured/public data and working with complex APIs to access large databases.", "We transform raw data into digestible visualizations, allowing clients to make data-driven decisions.", "Akinos Consulting also provides automation services for data entry, social media engagement and other repetitive, web-based tasks."],
     "Why": [
       "Actionable Data Vizualizations",
       "Data Entry Automation",
@@ -121,7 +121,7 @@
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
+    "phone": "‪(561) 802 0212‬",
     "email": "info@akinosconsulting.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
