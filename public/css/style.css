@@ -211,6 +211,74 @@ a:focus,
   outline-offset: none;
 }
 
+.navbar-default .navbar-toggle {
+  border: none;
+  background: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #333; /* Ensure visibility on a light background */
+}
+
+
+.brand-with-lines {
+  position: relative;
+  display: flex; /* Use flexbox for better center alignment */
+  align-items: center; /* Vertically centers the text and lines */
+  justify-content: center; /* Horizontally centers the content */
+}
+
+.brand-with-lines::before,
+.brand-with-lines::after {
+  content: '';
+  height: 3px; /* Thickness of the line */
+  background-color: black;
+  width: 60px; /* Adjust the length of the line as needed */
+  margin: 0 10px; /* Space between the text and the lines */
+}
+
+@media (max-width: 768px) {
+  #menu.navbar-default .navbar-header {
+      display: flex;
+      justify-content: space-between; /* Ensures items are justified to the edges */
+      align-items: center;
+      width: 100%; /* Ensures the navbar header spans the full width */
+  }
+
+  .navbar-brand {
+      flex-grow: 1; /* Allows the brand to expand and center itself */
+      text-align: center; /* Centers the brand text */
+      margin: 0; /* Resets any default margin */
+  }
+
+  .navbar-toggle {
+      display: block; /* Ensures the toggle is displayed */
+      position: absolute; /* Positions the toggle absolutely within the header */
+      right: 10px; /* Positions the toggle 10px from the right */
+      top: 10px; /* Adjusts the vertical position to align nicely with the center */
+  }
+
+  .brand-with-lines {
+      display: flex;
+      justify-content: center; /* Ensures the brand is centered */
+      align-items: center;
+  }
+
+  .brand-with-lines::before,
+  .brand-with-lines::after {
+      content: '';
+      height: 3px; /* Thickness of the line */
+      background-color: black;
+      width: 30px; /* Adjust the length of the line as needed */
+      margin: 0 5px; /* Space between the text and the lines */
+  }
+}
+
+
+
+
+
+
 /* Header Section */
 .intro {
   display: table;
@@ -661,19 +729,3 @@ label {
   }
 }
 
-
-.brand-with-lines {
-  position: relative;
-  display: flex; /* Use flexbox for better center alignment */
-  align-items: center; /* Vertically centers the text and lines */
-  justify-content: center; /* Horizontally centers the content */
-}
-
-.brand-with-lines::before,
-.brand-with-lines::after {
-  content: '';
-  height: 3px; /* Thickness of the line */
-  background-color: black;
-  width: 60px; /* Adjust the length of the line as needed */
-  margin: 0 10px; /* Space between the text and the lines */
-}

@@ -84,17 +84,17 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Andrew wrote scripts to collect sales and marketing data that helped me grow my business.\"",
+      "text": "Andrew wrote scripts to collect sales and marketing data that helped me grow my business.",
       "name": "Founder of Pistol Practice"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Andrew collected data from a complex API, built a SQL database and created insightful clinical trial data visualzations for our team.\"",
+      "text": "Andrew collected data from a complex API, built a SQL database and created insightful clinical trial data visualzations for our team.",
       "name": "Magali Hickey"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Andrew saved our business time and money by writing scripts to automate reporting tasks.\"",
+      "text": "Andrew saved our business time and money by writing scripts to automate reporting tasks.",
       "name": "Summit Partners"
     }
   ],
