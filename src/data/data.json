@@ -1,10 +1,10 @@
 {
   "Header": {
     "title": "Akinos Consulting",
-    "paragraph": "Akinos Consulting provides data analysis, web scraping and automation solutions for teams and individuals."
+    "paragraph": "Akinos Consulting provides data analysis, web scraping and automation solutions for teams and investors."
   },
   "About": {
-    "paragraph": ["Akinos Consulting was formed to bring enterprise quality data analytics and automation solutions to small teams and individuals.", "We provide comprehensive data collection services including web scraping of unstructured/public data and working with complex APIs to access large databases.", "We transform raw data into digestible visualizations, allowing clients to make data-driven decisions.", "Akinos Consulting also provides automation services for data entry, social media engagement and other repetitive, web-based tasks."],
+    "paragraph": ["Akinos Consulting was formed to bring enterprise quality data analytics and automation solutions to small teams and investors.", "We provide comprehensive data collection services including web scraping of unstructured/public data and working with complex APIs to access large databases.", "We transform raw data into digestible visualizations, allowing clients to make data-driven decisions.", "Akinos Consulting also provides automation services for data entry, social media engagement and other repetitive, web-based tasks."],
     "Why": [
       "Actionable Data Vizualizations",
       "Data Entry Automation",
@@ -72,29 +72,29 @@
     {
       "icon": "fa fa-file-text-o",
       "name": "Data Collection",
-      "list":["Build Lead Lists", "Scrape Public Data","Navigate Complex APIs","Build Proprietary Databases", "Collect Social Media Data"
+      "list":["Build Lead Lists", "Scrape Public Data","Navigate Complex APIs","Build Proprietary Databases", "Collect Social Media Data","Transform and Organize Data"
       ]
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Data Analytics",
-      "list":["Make Sense of Large Datasets", "Actionable Data Visualizations", "Trend Analysis", "Algorithm Backtesting"]
+      "list":["Make Sense of Large Datasets", "Transform Data into Decisions", "Report Key Company Metrics", "Visualize Customer Behavior"]
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "Andrew wrote scripts to collect sales and marketing data that helped me grow my business.",
+      
+      "text": "Andrew wrote scripts to collect sales and marketing data that saved me time and helped me grow my business.",
       "name": "Founder of Pistol Practice"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "Andrew collected data from a complex API, built a SQL database and created insightful clinical trial data visualzations for our team.",
-      "name": "Magali Hickey"
+      
+      "text": "Andrew collected data from a complex APIs, built a database and created insightful clinical trial data visualzations that helped our team secure funding.",
+      "name": "Chief Scientist - Araneus Bio"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "Andrew saved our business time and money by writing scripts to automate reporting tasks.",
+      
+      "text": "Andrew saved our business time and money by writing scripts to automate data entry and internal reporting requirements.",
       "name": "Summit Partners"
     }
   ],

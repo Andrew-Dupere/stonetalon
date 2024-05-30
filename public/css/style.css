@@ -537,7 +537,7 @@ header .intro-text {
   position: relative;
   padding: 20px;
 }
-.testimonial-image {
+/* .testimonial-image {
   float: left;
   margin-right: 15px;
 }
@@ -547,7 +547,9 @@ header .intro-text {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-}
+} 
+arcturis removed border because no testemonial images
+*/
 .testimonial-content {
   position: relative;
   overflow: hidden;
@@ -728,4 +730,5 @@ label {
     margin: 50px 0;
   }
 }
+
 
