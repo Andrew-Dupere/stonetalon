@@ -10,13 +10,15 @@ export const Team = (props) => {
         <div id="row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
           {props.data
             ? <>
-                <div style={{ width: '50%' }}>
+                <div style={{ width: '40%' }} >
                   <img src="img/IMG_1954a4x6.jpg" alt="Descriptive Alt Text" style={{ width: '50%', height: 'auto' }} />
                 </div>
-                <div style={{ width: '50%' }}>
+                <div style={{ width: '60%' }} >
+                  
                   <h1>Andrew Dupere</h1>
+                  
                   <p>
-                    Andrew Dupere is a software engineer with over a decade of professional experience in financial services, cybersecurity, and consulting. He has an extremely broad technical skill set and has built web applications, automated trading systems, social media bots, web scraping tools, SQL databases, and data analytics dashboards. Andrew leverages the full power of AI as well as Amazon Web Services to accelerate production and ensure quality of work. 
+                    Andrew is a software engineer with over a decade of professional experience in financial services, cybersecurity, and consulting. He has an extremely broad technical skill set and has built web applications, automated trading systems, social media bots, web scraping tools, SQL databases, and data analytics dashboards. Andrew leverages the full power of AI as well as Amazon Web Services to accelerate production and ensure quality of work. 
                   </p>
                   
                 {/* Tech Stack Badges */}

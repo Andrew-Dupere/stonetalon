@@ -1,10 +1,10 @@
 {
   "Header": {
     "title": "Akinos Consulting",
-    "paragraph": "Akinos Consulting provides data analysis, web scraping and automation solutions for teams and investors."
+    "paragraph": "Akinos Consulting delivers enterprise quality data analytics, web scraping and automation solutions for teams and investors."
   },
   "About": {
-    "paragraph": ["Akinos Consulting was formed to bring enterprise quality data analytics and automation solutions to small teams and investors.", "We provide comprehensive data collection services including web scraping of unstructured/public data and working with complex APIs to access large databases.", "We transform raw data into digestible visualizations, allowing clients to make data-driven decisions.", "Akinos Consulting also provides automation services for data entry, social media engagement and other repetitive, web-based tasks."],
+    "paragraph": ["Akinos Consulting delivers data and automation solutions to teams and investors across diverse sectors.", "We provide comprehensive data collection services including web scraping of unstructured/public data and working with complex APIs to access large databases.", "We transform raw data into digestible visualizations, allowing clients to make data-driven decisions.", "Akinos Consulting also provides automation services for data entry, social media engagement and other repetitive, web-based tasks."],
     "Why": [
       "Actionable Data Vizualizations",
       "Data Entry Automation",
@@ -65,12 +65,12 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-cog",
+      "icon": "fa fa-cogs",
       "name": "Automation",      
       "list":["Data Entry Automation", "Schedule Report Generation", "Social Media Interaction", "Email Campaign Automation"]
     },
     {
-      "icon": "fa fa-file-text-o",
+      "icon": "fa fa-globe",
       "name": "Data Collection",
       "list":["Build Lead Lists", "Scrape Public Data","Navigate Complex APIs","Build Proprietary Databases", "Collect Social Media Data","Transform and Organize Data"
       ]
@@ -84,18 +84,18 @@
   "Testimonials": [
     {
       
-      "text": "Andrew wrote scripts to collect sales and marketing data that saved me time and helped me grow my business.",
-      "name": "Founder of Pistol Practice"
+      "text": "Andrew increased my sales and helped grow my brand by building me tools to find and connect with potential clients.",
+      "name": "Founder, Pistol Practice"
     },
     {
       
-      "text": "Andrew collected data from a complex APIs, built a database and created insightful clinical trial data visualzations that helped our team secure funding.",
-      "name": "Chief Scientist - Araneus Bio"
+      "text": "Andrew collected data from complex APIs, built a database and created insightful clinical trial data visualzations that helped our team secure funding.",
+      "name": "Chief Scientist, Araneus Bio"
     },
     {
       
-      "text": "Andrew saved our business time and money by writing scripts to automate data entry and internal reporting requirements.",
-      "name": "Summit Partners"
+      "text": "Working with Andrew has allowed our business to stay efficient and productive by writing scripts to automate internal reporting tasks.",
+      "name": "Founder, Summit Partners"
     }
   ],
   "Team": [

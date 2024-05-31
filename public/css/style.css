@@ -556,7 +556,7 @@ arcturis removed border because no testemonial images
 }
 .testimonial-content p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-style: italic;
 }
 .testimonial-meta {
@@ -568,6 +568,14 @@ arcturis removed border because no testemonial images
 /* Team Section */
 #team {
   padding: 70px 0;
+}
+#team p {
+  padding: 2px
+}
+
+#team h1 {
+  font-size:26;
+  padding: 4px
 }
 #team h4 {
   margin: 5px 0;
@@ -582,6 +590,67 @@ arcturis removed border because no testemonial images
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
+}
+
+.team-container {
+  text-align: center;
+}
+
+.section-title h2 {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.team-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.team-row .profile {
+  width: 50%;
+}
+
+.team-row .profile img {
+  width: 100%;
+  height: auto;
+}
+
+.team-row .description {
+  width: 50%;
+}
+
+.team-row .description h1,
+.team-row .description p {
+  padding: 10px 0; /* Padding between title and paragraph */
+}
+
+.tech-stack {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .team-row {
+    flex-direction: column;
+  }
+
+  .team-row .profile,
+  .team-row .description {
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  .team-row .description h1,
+  .team-row .description p {
+    padding: 20px 0; /* Increased padding on smaller screens */
+  }
 }
 /* Contact Section */
 #contact {
