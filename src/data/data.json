@@ -1,38 +1,25 @@
 {
   "Header": {
-    "title": "Akinos Consulting",
-    "paragraph": "Akinos Consulting delivers enterprise quality data analytics, web scraping and automation solutions for teams and investors."
+    "title": "Summit Consulting Partners",
+    "paragraph": "SCP provides fractional support for venture backed and growth stage companies focused on healthcare, software and technology."
   },
   "About": {
-    "paragraph": ["Akinos Consulting delivers data and automation solutions to teams and investors across diverse sectors.", "We provide comprehensive data collection services including web scraping of unstructured/public data and working with complex APIs to access large databases.", "We transform raw data into digestible visualizations, allowing clients to make data-driven decisions.", "Akinos Consulting also provides automation services for data entry, social media engagement and other repetitive, web-based tasks."],
-    "Why": [
-      "Actionable Data Vizualizations",
-      "Data Entry Automation",
-      "Automate Social Media Engagement"
-    ],
-    "Why2": [
-      "Scrape leads for sales/marketing",
-      "Collect data from APIs",
-      "Create a proprietary database" 
-    ]
+    "paragraph": ["SCP provides flexible resources to venture backed and growth stage businesses allowing them to be intentional in their approach to accelerate the alignment of staff, structure, and processes with their company goals."]
+
   },
 
   "Services": [
     {
       "icon": "fa fa-cogs",
-      "name": "Automation",      
-      "list":["Data Entry Automation", "Schedule Report Generation", "Social Media Interaction", "Email Campaign Automation"]
+      "name": "Consulting & Talent Acquisition",      
+      "list":["Specialized Consultants in HR, Accounting, Finance, and Communications", "Project Management", "Talent Search Services in HR, Accounting, Finance, and Communications", "Talent Search Services in HR, Accounting, Finance, and Communications"],
+      "paragraph":"Summit Consulting Partners (SCP) assists clients in improving performance, supplementing and streamlining operations, reducing costs, complying with complex regulations, and stimulating growth. We team with our clients to deliver sustainable and measurable results on every engagement and we have a track record of successfully working with early stage, venture backed and growth stage businesses."
     },
     {
       "icon": "fa fa-globe",
-      "name": "Data Collection",
-      "list":["Build Lead Lists", "Scrape Public Data","Navigate Complex APIs","Build Proprietary Databases", "Collect Social Media Data","Transform and Organize Data"
+      "name": "Finance, Sales, and Operations",
+      "list":["Fractional/Interim C-Level Support", "Budgeting, Forecasting & Analysis","Strategic Planning","Operational Services"
       ]
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Data Analytics",
-      "list":["Make Sense of Large Datasets", "Transform Data into Decisions", "Report Key Company Metrics", "Visualize Customer Behavior"]
     }
   ],
   "Testimonials": [

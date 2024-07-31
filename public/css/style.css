@@ -468,6 +468,12 @@ header .intro-text {
   padding-right: 8px;
 }
 
+#services .row {
+    display: flex;
+    justify-content: center; /* This will center the children horizontally */
+    flex-wrap: wrap; /* Allows multiple items to wrap into the next line if needed */
+}
+
 .services-text ul {
   padding-left: 50px;  /* Adjusts the left padding to move the list to the right */
 }

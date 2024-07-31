@@ -6,8 +6,8 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Services</h2>
-          {/* Optional description can be uncommented here */}
-          {/* <p>
+          {/* Optional description can be uncommented here
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
           </p> */}
