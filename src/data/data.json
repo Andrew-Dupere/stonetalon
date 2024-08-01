@@ -10,13 +10,13 @@
 
   "Services": [
     {
-      "icon": "fa fa-cogs",
+      "icon": "fa fa-group",
       "name": "Consulting & Talent Acquisition",      
       "list":["Specialized Consultants in HR, Accounting, Finance, and Communications", "Project Management", "Talent Search Services in HR, Accounting, Finance, and Communications", "Talent Search Services in HR, Accounting, Finance, and Communications"],
       "paragraph":"Summit Consulting Partners (SCP) assists clients in improving performance, supplementing and streamlining operations, reducing costs, complying with complex regulations, and stimulating growth. We team with our clients to deliver sustainable and measurable results on every engagement and we have a track record of successfully working with early stage, venture backed and growth stage businesses."
     },
     {
-      "icon": "fa fa-globe",
+      "icon": "fa fa-bank",
       "name": "Finance, Sales, and Operations",
       "list":["Fractional/Interim C-Level Support", "Budgeting, Forecasting & Analysis","Strategic Planning","Operational Services"
       ]
@@ -63,8 +63,8 @@
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "‪(561) 802 0212‬",
-    "email": "info@akinosconsulting.com",
+    "phone": "‪(617) 320 9131‬",
+    "email": "info@scpflex.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
