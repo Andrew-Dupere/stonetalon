@@ -10,7 +10,7 @@ export const Team = (props) => {
         <div id="row" style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'flex-start', width: '100%', flexWrap: 'wrap' }}>
           {props.data
             ? <>
-                <div style={{ width: '45%' }} >
+                <div style={{ width: '30%' }} >
                   <img src="img/thumbnail_Bio Photo - W Kea.jpg" alt="Bill Kea" style={{ width: '100%', height: 'auto' }} />
                   <h3>Bill Kea</h3>
                   <p>
@@ -23,7 +23,7 @@ export const Team = (props) => {
                    
                   </p>
                 </div>
-                <div style={{ width: '45%' }} >
+                <div style={{ width: '30%' }} >
                   <img src="img/leadership_two.jpg" alt="Jessica Durkin" style={{ width: '100%', height: 'auto' }} />
                   <h3>Jessica Durkin</h3>
                   <p>

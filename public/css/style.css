@@ -657,6 +657,26 @@ arcturis removed border because no testemonial images
   .team-row .description p {
     padding: 20px 0; /* Increased padding on smaller screens */
   }
+
+/* ARCTURIS New responsive rules */
+@media (max-width: 768px) {
+  #row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #row > div {
+    width: 90% !important; /* Override the inline style */
+    margin-bottom: 30px;
+  }
+
+  #row > div img {
+    width: 70% !important; /* Make images slightly smaller on mobile */
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 }
 /* Contact Section */
 #contact {
