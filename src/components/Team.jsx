@@ -27,7 +27,7 @@ export const Team = (props) => {
                   <img src="img/leadership_two.jpg" alt="Jessica Durkin" style={{ width: '100%', height: 'auto' }} />
                   <h3>Jessica Durkin</h3>
                   <p>
-                    With more than 20 years of Finance, human capital, search, and executive placement experience, Jessica has successfully worked on and managed numerous engagements to build client companies. Jessica is a proven leader, creative problem solver, and trusted value added strategic partner to SCP's clients. Jessica has extensive experience in professionally managing sensitive, confidential and urgent assignments and holds a BA degree in economics from The University of Vermont.
+                    With more than 25 years of Finance, human capital, search, and executive placement experience, Jessica has successfully worked on and managed numerous engagements to build client companies. Jessica is a proven leader, creative problem solver, and trusted value added strategic partner to SCP's clients. Jessica has extensive experience in professionally managing sensitive, confidential and urgent assignments and holds a BA degree in Economics and a BA in German Language Studies from The University of Vermont.
                   </p>
                 </div>
               </>
