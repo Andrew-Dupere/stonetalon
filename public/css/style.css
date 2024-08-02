@@ -408,6 +408,9 @@ header .intro-text {
 }
 
 /* Services Section */
+
+
+
 #services {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
@@ -475,9 +478,29 @@ header .intro-text {
 }
 
 .services-text ul {
-  padding-left: 50px;  /* Adjusts the left padding to move the list to the right */
+  padding-left: 10px;  /* Adjusts the left padding to move the list to the right */
 }
 
+#services .services-text ul li {
+  display: flex; /* Aligns the bullet and text in a flex row */
+  align-items: center; /* Centers items vertically */
+  margin-bottom: 10px; /* Adds space between list items */
+  position: relative; /* Positions the pseudo-element relative to the li */
+  
+}
+#services .services-text li {
+  margin-bottom: 10px;
+  margin-left: 6px;
+  font-size: 17px;
+  list-style: none;
+  padding: 0 0 0 25px; /* Add left padding */
+  text-align: left;
+  position: relative; /* For positioning the icon */
+}
+
+#services .col-md-5 {
+  margin: 0 35px; /* Increase the left and right margins */
+}
 
 /* Portfolio Section */
 #portfolio {
