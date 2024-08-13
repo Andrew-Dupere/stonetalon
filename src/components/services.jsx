@@ -60,7 +60,7 @@ export const Services = (props) => {
       <section style={{ marginBottom: '20px' }}>
         <h3 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '10px', color: '#ffd700' }}>Strategic Planning</h3>
         <p style={{ marginBottom: '10px' }}>SCP's strategic planning process includes the following key components:</p>
-        <ul style={{ listStyleType: 'disc', paddingLeft: '20px', marginBottom: '15px' }}>
+        <ul style={{ listStyleType: 'disc', paddingLeft: '20px', marginBottom: '15px',fontSize: '16px' }}>
           <li>Consensus on Mission, Vision, Values</li>
           <li>Assessment of strengths and weaknesses, opportunities, and threats</li>
           <li>Identification of external trends, events, and factors</li>

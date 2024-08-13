@@ -13,12 +13,12 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p style={{fontWeight: "bold" }}>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
+                {/* <a
                   href="#about"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Learn More
-                </a>{" "}
+                </a>{" "} */}
               </div>
             </div>
           </div>
