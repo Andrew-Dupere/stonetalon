@@ -9,7 +9,7 @@ export const Services = (props) => {
 
   const ServicesDetails = () => (
     <div className="services-details text-left">
-      <h1 style={{ fontSize: '28px', fontWeight: 'bold', marginBottom: '20px', color: '#ffffff' }}>Services</h1>
+      <h1 style={{ fontSize: '28px', fontWeight: 'bold', marginBottom: '20px', color: '#ffffff',  textAlign: 'center' }}>Summit Consulting Partners</h1>
       
       <section style={{ marginBottom: '20px' }}>
         <h2 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '10px', color: '#ffd700' }}>Consulting & Talent Acquisition</h2>
