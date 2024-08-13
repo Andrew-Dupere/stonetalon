@@ -15,7 +15,7 @@ export const Services = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((service, index) => (
-                <div key={`${service.name}-${index}`} className="col-md-5">
+                <div key={`${service.name}-${index}`} className="col-md-5" >
                   <i className={service.icon}></i>
                   <div className="service-desc services-text">
                     <h3>{service.name}</h3>
@@ -24,11 +24,12 @@ export const Services = (props) => {
                       {service.list.map((item, idx) => (
                         <li key={idx}>{item}</li>
                       ))}
-                    </ul>
-                  </div>
+                    </ul>                    
+                  </div>                  
                 </div>
               ))
             : "Loading services..."}
+          <a href="#about" className="btn btn-custom btn-lg page-scroll" style={{ marginTop: '20px', fontWeight: 'bold', border: '1px solid white'}} >Learn More About Our Services</a>
         </div>
       </div>
     </div>
